@@ -12,7 +12,7 @@ execute scripts using Bash,
 bash <script_name>.sh
 ```
 
-Scripts order for smooth execution,
+Scripts execution order for smooth execution,
 ```bash
 kittysetup.sh
 addrepos.sh
