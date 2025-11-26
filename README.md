@@ -14,6 +14,7 @@ bash <script_name>.sh
 
 Scripts execution order for smooth execution,
 ```bash
+devtools.sh
 kittysetup.sh
 addrepos.sh
 flatpak.sh
