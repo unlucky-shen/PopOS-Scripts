@@ -11,3 +11,13 @@ execute scripts using Bash,
 ```bash
 bash <script_name>.sh
 ```
+
+Scripts order for smooth execution,
+```bash
+kittysetup.sh
+addrepos.sh
+flatpak.sh
+debloat-and-install.sh
+ssh-git.sh
+gitclone.sh
+```
