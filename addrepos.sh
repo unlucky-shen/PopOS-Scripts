@@ -2,12 +2,6 @@
 
 set -e
 
-# Universe Repo
-sudo add-apt-repository universe
-
-# Multiverse Repo
-sudo add-apt-repository multiverse
-
 # Neovim Unstable PPA
 sudo add-apt-repository ppa:neovim-ppa/unstable
 
@@ -16,4 +10,6 @@ curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.asc | sudo 
 
 echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 
-sudo apt-get update && sudo apt-get install spotify-client
+sudo apt-get update && sudo apt-get install spotify-client -y
+
+sudo apt install neovim -y
